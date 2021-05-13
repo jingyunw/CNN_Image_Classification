@@ -2,10 +2,18 @@
 chest_xray/
 base_model.h5
 best_dropout_20.h5
+best_dropout_20b.h5
 best_dropout_50.h5
+best_he.h5
+best_L1.h5
+best_L2.h5
+best_L2_01.h5
+best_padding.h5
+best_valid.h5
 
 # Scratch files
 Code.ipynb
+try_local.ipynb
 Untitled.ipynb
 
 # Byte-compiled / optimized / DLL files
