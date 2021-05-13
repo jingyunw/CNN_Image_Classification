@@ -10,6 +10,7 @@ best_L2.h5
 best_L2_01.h5
 best_padding.h5
 best_valid.h5
+best_lecun.h5
 
 # Scratch files
 Code.ipynb
