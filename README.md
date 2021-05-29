@@ -43,7 +43,12 @@ Overall, pretrained VGG19 has the highest accuracy and f1-score, however, it's c
 
 <img src="images/confusion_matirx_labeled.png">
 
-In the real situation, if the model predicts the result to be pneumonia (both true positives and false positives), then the x-rays images will be sent to doctors and look through again to see how severe the condition is. Misclassifying someone to be non-pneumonia (false negatives) will cause delay or lack of supportive treatments. To solve the misclassify issue, I set a threshold for predicting probabilities. For those results within the range, those images can be sent to medical intern students for preview (also work as a practice for them). So that, if it is pneumonia, then re-send to the doctor for final review.
+In the real situation, if the model predicts the result to be pneumonia (both true positives and false positives), then the x-rays images will be sent to doctors and look through again to see how severe the condition is. Misclassifying someone to be non-pneumonia (false negatives) will cause delay or lack of supportive treatments. To solve the misclassify issue, I set a threshold for predicting probabilities. For probabilities within the range, those images can be sent to medical intern students for preview (also work as a practice for them). So that, if it is pneumonia, then re-send to the doctor for final review.
+
+<br>
+<b>Predicting Probabilities</b>
+
+- probability of having pneumonia that generates for each sample prediction
 
 ## Conclusion
 Among analyze 5,856 chest x-ray images, a convolutional neural network was built for image classification. After hyperparameter tunning, my best model's test accuracy has reached 87.82%. Rather than sending every x-rays image to doctors, the radiology department can use my model to filter "pneumonia" and "normal" x-ray images. There is a small chance that the machine will predict incorrectly. Setting a threshold can help to find out those misclassified x-rays images. 
