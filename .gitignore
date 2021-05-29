@@ -1,8 +1,15 @@
-# Large files
+# Large data files
 chest_xray/
+
+# Large model files
 saved_models/
-untitled folder/
+
+# saved csv when using google colab
 saved_csv/
+
+# require file for submiiting
+untitled folder/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
