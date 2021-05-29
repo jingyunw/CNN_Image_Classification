@@ -50,21 +50,18 @@ Among analyze 5,856 chest x-ray images, a convolutional neural network was built
 ***
 
 ### Recommendation
-<b>Image size</b>: Saved the x-ray images' size as 128×128 px before feeding into the model
-<br>
-<b>Threshold</b>: p = probability of having pneumonia
-- p ≥ 50%: send the images to doctors for further diagnosis. 
-- p < 50%: send the images to medical intern students to find out false negatives.
+- <b>Image size</b>: Saved the x-ray images' size as 128×128 px before feeding into the model
+- <b>Threshold</b>: p = probability of having pneumonia
+    - p ≥ 50%: send the images to doctors for further diagnosis. 
+    - p < 50%: send the images to medical intern students to find out false negatives.
  
 
 ## Future Work
 Further analysis can be explored on the following to provide additional insights and improve the model performance.
 
-<b>Data</b>: Acquire more normal chest x-ray images to see if can reduce false positives
-<br>
-<b>Model structure</b>:Try different model architectures and hyperparameter tunning
-<br>
-<b>Extensive application</b>: Further developed model for other disease dectection (which needs x-ray images)
+- <b>Data</b>: Acquire more normal chest x-ray images to see if can reduce false positives
+- <b>Model structure</b>:Try different model architectures and hyperparameter tunning
+- <b>Extensive application</b>: Further developed model for other disease dectection (which needs x-ray images)
 
 ## For More Information
 See the full analysis and modeling in the [Jupyter Notebook](./Pneumonia_Detection_through_Deep_Learning.ipynb) and [presentation](./Pneumonia_Detection_Presentation.pdf).
@@ -74,7 +71,7 @@ For additional information please contact, JingYun (Jonna) Wang at jingyunwang24
 ```
 ├── additional
 ├── images
+├── Pneumonia_Detection_Presentation.pdf
 ├── Pneumonia_Detection_through_Deep_Learning.ipynb
-├── README.md
-└── Pneumonia_Detection_Presentation.pdf
+└── README.md
 ```
