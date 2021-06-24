@@ -69,7 +69,7 @@ Further analysis can be explored on the following to provide additional insights
 - <b>Extensive application</b>: Further developed model for other disease dectection (which needs x-ray images)
 
 ## For More Information
-See the full analysis and modeling in the [Jupyter Notebook](./Pneumonia_Detection_through_Deep_Learning.ipynb) and [presentation](./Pneumonia_Detection_Presentation.pdf).
+See the full analysis and modeling in the [Jupyter Notebook](./Notebook.ipynb) and [presentation](./Presentation.pdf).
 For additional information please contact, JingYun (Jonna) Wang at jingyunwang24@gmail.com
 
 ## Repository Structure
