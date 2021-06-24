@@ -76,7 +76,7 @@ For additional information please contact, JingYun (Jonna) Wang at jingyunwang24
 ```
 ├── additional
 ├── images
-├── Pneumonia_Detection_Presentation.pdf
-├── Pneumonia_Detection_through_Deep_Learning.ipynb
+├── Notebook.ipynb
+├── Presentation.pdf
 └── README.md
 ```
